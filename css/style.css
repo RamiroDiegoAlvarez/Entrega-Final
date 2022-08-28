@@ -152,6 +152,15 @@ header a:hover {
   border: solid black 10px;
 }
 
+.scroll {
+  overflow-x: auto;
+}
+
+.fotoPizza {
+  width: 100%;
+  height: auto;
+}
+
 .p2002 {
   background-color: rgba(41, 6, 6, 0.7);
   width: fit-content;
