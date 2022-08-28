@@ -205,6 +205,11 @@ header a:hover {
   justify-content: center;
 }
 
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
 .mapasSucursales {
   display: flex;
   align-items: center;
