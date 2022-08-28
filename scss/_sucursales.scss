@@ -1,0 +1,27 @@
+.mapasSucursales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    }
+    .pizza{
+        display: flex;
+        width: auto;
+        justify-content: center;
+    }
+    .textoGigante{
+        font-size: 3.5em;
+        text-align: center;
+    }
+@media (max-width: 1030px){
+
+.mapita{
+    display: block;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+}
+}

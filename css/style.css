@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2, 7em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1, 20em;
+}
+
+p {
+  font-size: 1, 25em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(41, 6, 6);
+}
+
+button:hover {
+  background-color: rgb(71, 12, 12);
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-acento {
+  color: rgb(41, 6, 6);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(41, 6, 6);
+  font-size: 1.6em;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a {
+  padding: 5px 12 px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover {
+  color: rgb(41, 6, 6);
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+#hero1 {
+  color: white;
+}
+
+#somos-pizzeriamita {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#carateristicas .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#caracteristicas li {
+  margin: 15px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fondo {
+  background-color: rgba(143, 119, 119, 0.152);
+}
+
+header nav {
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-right: 20px;
+}
+
+.final {
+  background-color: rgba(41, 6, 6, 0.95);
+  color: white;
+}
+
+header a:hover {
+  color: rgb(41, 6, 6);
+}
+
+.p2002 {
+  background-color: rgba(41, 6, 6, 0.7);
+  width: fit-content;
+  margin: auto;
+  padding: 20px 10px;
+  border: solid black 10px;
+}
+
+.p2002 {
+  background-color: rgba(41, 6, 6, 0.7);
+  width: fit-content;
+  margin: auto;
+  padding: 20px 10px;
+  border: solid black 10px;
+}
+
+.nosotros {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.formulario {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.areaTexto {
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  gap: 10px;
+  background-color: rgba(46, 5, 5, 0.5);
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+@media (max-width: 1165px) {
+  .grid-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+}
+.grid-item {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mapasSucursales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.pizza {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.textoGigante {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+@media (max-width: 1030px) {
+  .mapita {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

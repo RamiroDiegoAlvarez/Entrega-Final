@@ -1,0 +1,25 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: rgba(46, 5, 5, 0.5);
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+@media (max-width: 1165px){
+    .grid-container{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+}
+
+.grid-item{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

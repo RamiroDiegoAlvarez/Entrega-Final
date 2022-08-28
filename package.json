@@ -1,0 +1,24 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "entrega final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiroDiegoAlvarez/Entrega-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiroDiegoAlvarez/Entrega-Final/issues"
+  },
+  "homepage": "https://github.com/RamiroDiegoAlvarez/Entrega-Final#readme",
+  "dependencies": {
+    "sass": "^1.54.5"
+  }
+}
